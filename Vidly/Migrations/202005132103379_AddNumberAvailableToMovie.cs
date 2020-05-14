@@ -2,7 +2,7 @@ namespace Vidly.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;
-    
+
     public partial class AddNumberAvailableToMovie : DbMigration
     {
         public override void Up()
@@ -11,7 +11,7 @@ namespace Vidly.Migrations
 
             Sql("UPDATE Movies SET NumberAvailable = NumberInStock");
         }
-        
+
         public override void Down()
         {
             DropColumn("dbo.Movies", "NumberAvailable");

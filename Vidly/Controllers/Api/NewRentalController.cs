@@ -14,17 +14,12 @@ namespace Vidly.Controllers.Api
 {
     public class NewRentalController : ApiController
     {
-
         private ApplicationDbContext _context;
 
         public NewRentalController()
         {
             _context = new ApplicationDbContext();
         }
-
-
-
-
 
 
         [HttpPost]
@@ -57,6 +52,5 @@ namespace Vidly.Controllers.Api
 
             return Ok();
         }
-
     }
 }

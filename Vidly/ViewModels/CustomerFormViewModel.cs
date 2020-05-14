@@ -11,7 +11,7 @@ namespace Vidly.ViewModels
         public IEnumerable<MembershipType> MembershipTypes { get; set; }
         public Customer Customer { get; set; }
 
-        
+
         // To change view's title based on new or existing customer
         public string Title
         {

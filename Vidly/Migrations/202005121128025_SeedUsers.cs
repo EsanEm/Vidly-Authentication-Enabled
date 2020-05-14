@@ -2,7 +2,7 @@ namespace Vidly.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;
-    
+
     public partial class SeedUsers : DbMigration
     {
         public override void Up()
@@ -16,7 +16,7 @@ namespace Vidly.Migrations
                INSERT INTO [dbo].[AspNetUserRoles] ([UserId], [RoleId]) VALUES (N'40bff0fe-3840-46a2-9c79-3440e0ca6da9', N'889e3801-ef1a-4422-aff2-a4aa8d34fa3d')
               ");
         }
-        
+
         public override void Down()
         {
         }
